@@ -16,6 +16,11 @@ updates:
         - "devvit"
         - "@devvit/*"
     groups:
+      # All security fixes arrive as one PR
+      security-fixes:
+        applies-to: security-updates
+        patterns:
+          - "*"
       devvit:
         patterns:
           - "devvit"

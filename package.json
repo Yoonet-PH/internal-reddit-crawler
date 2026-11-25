@@ -19,20 +19,26 @@
     "node": ">=24.0.0"
   },
   "dependencies": {
-    "@devvit/start": "0.14.3",
-    "@devvit/web": "0.14.3",
-    "@hono/node-server": "^2.0.3",
-    "devvit": "0.14.3",
-    "hono": "4.13.7"
+    "@devvit/start": "0.14.8",
+    "@devvit/web": "0.14.8",
+    "@hono/node-server": "^2.1.6",
+    "devvit": "0.14.8",
+    "hono": "4.13.16"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
     "@types/node": "^24.13.3",
-    "eslint": "10.10.0",
+    "eslint": "10.15.0",
     "globals": "17.12.0",
     "prettier": "3.9.6",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.70.0",
-    "vite": "8.2.2"
+    "typescript-eslint": "8.74.0",
+    "vite": "8.2.4"
+  },
+  "overrides": {
+    "image-size@2.0.2": "2.0.3",
+    "isomorphic-git@1.33.1": "1.38.6",
+    "js-yaml@4.3.1": "4.3.2",
+    "tmp@0.0.33": "0.2.7"
   }
 }
